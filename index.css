@@ -1,0 +1,95 @@
+#firstHero {
+    max-width: 100%;
+    max-height:100%;
+  }
+  @media only screen and (max-width: 768px) {
+    #firstHero{
+      
+    }
+  }
+
+  #row-1 {
+    margin: 1rem;
+    padding: 2rem;
+  }
+  
+ 
+  @media only screen and (max-width: 768px) {
+    #row-1 {
+      margin: none;
+      padding: none;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+     #Take{
+      margin-bottom:1rem;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    #submit{
+     margin-top:2rem;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+  .card {
+    justify-content: center; /* center icon at smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  #heroBtn {
+    display: inline-block;
+    margin: 10px; /* added margin to create some space around the buttons */
+    width: auto; /* changed width to auto to make the button size normal */
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  #heroBtnGroup {
+    display: flex;
+    flex-wrap: wrap; /* added flex-wrap to allow buttons to wrap to the next line if necessary */
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-img-top {
+    margin-bottom: 20px; /* add some space between the image and the card body */
+  }
+  
+  .card-title {
+    text-align: center;
+  }
+}
+
+#NavBtn {
+  color:black;
+  background-color: orangered;
+  text-decoration-color: black;
+  border: 5px black;
+}
+
+#NavBtn:hover{
+  
+}
+#FooterBtn{
+background-color: orangered;
+}
+#Footer{
+  background-color: rgba(0, 0, 0, 0.986);
+  color: white;
+}
+
+.card-text-onhover{
+background-color: hsla(31, 42%, 70%, 0.918);
+}
